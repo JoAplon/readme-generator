@@ -74,7 +74,7 @@ ${data.tests}
 
 ## Questions
 
-For questions or feedback regarding this project, please contact me at ${data.questions}, through my github, or my email, ${data.email}.
+For questions or feedback regarding this project, please contact me at ${data.questions}, through my [github](https://github.com/${data.github}), or my email, ${data.email}.
 
 `;
 }

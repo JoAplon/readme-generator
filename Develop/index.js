@@ -83,14 +83,12 @@ inquirer
 
     // TODO: Create a function to write README file
     .then((data) => {
-        // const badges = data.license(license => renderLicenseBadge(license));
         const readmeContent = generateMarkdown({
             title: data.title,
             description: data.description,
             installation: data.installation,
             usage: data.usage,
             license: data.license,
-            // licenseBadge: badges.join('\n'),
             contributing: data.contributing,
             tests: data.tests,
             questions: data.questions,
